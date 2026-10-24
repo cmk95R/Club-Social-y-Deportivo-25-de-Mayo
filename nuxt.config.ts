@@ -57,7 +57,8 @@ export default defineNuxtConfig({
         { name: 'description', content: 'Natatorio del Club Social y Deportivo 25 de Mayo de Martínez. Pileta climatizada todo el año, escuela de natación infantil y adultos, pileta libre y aquagym en Rodríguez Peña 941, Martínez.' }
       ],
       link: [
-        { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' },
+        { rel: 'icon', type: 'image/png', href: '/favicon.png?v=2' },
+        { rel: 'apple-touch-icon', href: '/favicon.png?v=2' },
         { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
         { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Open+Sans:wght@400;500;600&display=swap' }
       ]

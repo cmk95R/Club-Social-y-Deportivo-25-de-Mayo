@@ -18,7 +18,7 @@
         <article
           v-for="(post, i) in posts"
           :key="post.title"
-          class="group relative aspect-[4/5] rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-500 bg-slate-900"
+          class="group relative aspect-[4/5] rounded-2xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-500 bg-primary-950"
           :style="`transition-delay: ${i * 80}ms`"
         >
           <img

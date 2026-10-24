@@ -1,4 +1,19 @@
 /** @type {import('tailwindcss').Config} */
+
+const brand = {
+  50: '#f2f5fc',
+  100: '#e2eaf8',
+  200: '#c4d4f0',
+  300: '#9ab6e5',
+  400: '#6a92dc',
+  500: '#4973c9',
+  600: '#284d9d',
+  700: '#223f82',
+  800: '#1e356b',
+  900: '#1b2d57',
+  950: '#111d38',
+}
+
 module.exports = {
   content: [
     './components/**/*.{vue,js,ts}',
@@ -10,19 +25,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: {
-          50:  '#f0f9ff',
-          100: '#e0f2fe',
-          200: '#bae6fd',
-          300: '#7dd3fc',
-          400: '#38bdf8',
-          500: '#0284c7',
-          600: '#0369a1',
-          700: '#075985',
-          800: '#0c4a6e',
-          900: '#082f49',
-        },
-        accent: '#0ea5e9',
+        primary: brand,
+        sky: brand,
+        cyan: brand,
+        accent: '#6a92dc',
       },
       fontFamily: {
         heading: ['Montserrat', 'sans-serif'],

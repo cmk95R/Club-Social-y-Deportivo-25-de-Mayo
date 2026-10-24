@@ -12,22 +12,19 @@
             :style="`background-image: url('${slide.image}'); filter: blur(6px);`"
           />
           <!-- Aquatic atmospheric gradient overlay -->
-          <div class="absolute inset-0 bg-gradient-to-r from-primary-950/90 via-primary-900/75 to-primary-800/40" />
-          <div class="absolute inset-0 bg-gradient-to-t from-primary-950/60 via-transparent to-black/30" />
+          <div class="absolute inset-0 bg-gradient-to-r from-primary-950/90 via-primary-900/15 to-primary-800/20" />
+          <div class="absolute inset-0 bg-gradient-to-t from-primary-950/60 via-transparent to-black/26" />
 
           <!-- Capa de blur y tinte azul sobre toda la imagen -->
           <div
-            class="absolute inset-0 bg-gradient-to-br from-primary-950/80 via-primary-900/60 to-cyan-700/40"
+            class="absolute inset-0 bg-gradient-to-br from-primary-950/60 via-primary-900/35 to-primary-700/10"
             aria-hidden="true"
           />
 
           <div class="relative z-10 h-full flex items-center">
             <div class="max-w-7xl mx-auto px-4 sm:px-8 w-full pt-16">
               <div class="max-w-2xl">
-                <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/15 backdrop-blur-md border border-white/20 text-white text-xs font-semibold uppercase tracking-wider mb-6">
-                  <span class="w-2 h-2 rounded-full bg-sky-400 animate-pulse"></span>
-                  {{ slide.tag }}
-                </div>
+                
                 <h1
                   class="font-heading font-extrabold text-white text-3xl sm:text-5xl lg:text-6xl leading-tight mb-6 opacity-0"
                   :class="{ 'animate-fade-up': activeIndex === i }"
@@ -47,7 +44,7 @@
                   :class="{ 'animate-fade-up': activeIndex === i }"
                   style="animation-delay: 0.6s; animation-fill-mode: forwards"
                 >
-                  <NuxtLink to="/#services" class="btn-primary !rounded-lg !bg-sky-500 hover:!bg-sky-400 text-white shadow-lg shadow-sky-500/30">
+                  <NuxtLink to="/#services" class="btn-primary !rounded-lg !bg-primary-600 hover:!bg-primary-700 text-white shadow-lg shadow-primary-600/30">
                     {{ slide.cta }}
                   </NuxtLink>
                   <NuxtLink to="/#contact" class="btn-outline !rounded-lg">
@@ -83,21 +80,19 @@ let swiperInstance = null
 const slides = [
   {
     image: '/images/nata/00.png',
-    tag: 'Martínez · San Isidro',
+    
     title: 'Natatorio Club 25 de Mayo',
     subtitle: 'Pileta climatizada todo el año en Martínez. Clases para todas las edades, pileta libre y actividades acuáticas en un cálido ambiente familiar.',
     cta: 'Ver Actividades Acuáticas',
   },
   {
     image: '/images/nata/44.png',
-    tag: 'Escuela de Natación',
     title: 'Aprender, Crecer y Disfrutar en el Agua',
     subtitle: 'Profesores universitarios y guardavidas permanentes. Grupos divididos por niveles desde escuelita infantil hasta jóvenes y adultos.',
     cta: 'Conocer Niveles y Edades',
   },
   {
     image: '/images/nata/000.png',
-    tag: 'Salud y Entrenamiento',
     title: 'Pileta Libre y Rendimiento Físico',
     subtitle: 'Andariveles organizados por velocidad y horarios flexibles de mañana, tarde y noche para entrenar o relajarte a tu propio ritmo.',
     cta: 'Consultar Horarios y Turnos',

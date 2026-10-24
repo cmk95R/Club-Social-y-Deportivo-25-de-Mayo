@@ -49,12 +49,6 @@
 
             <div class="shimmer absolute inset-0 -translate-x-full group-hover/card:translate-x-full transition-transform duration-1000 ease-out" />
 
-            <div class="absolute top-4 left-4 z-10 flex items-center gap-2">
-              <span class="inline-flex items-center justify-center px-3 py-1 rounded-full bg-white/95 text-primary-800 font-heading font-extrabold text-xs shadow-md ring-1 ring-sky-200">
-                0{{ i + 1 }} · {{ service.badge }}
-              </span>
-            </div>
-
             <div class="absolute bottom-4 right-4 z-10 transition-all duration-500 group-hover/card:scale-110">
               <span class="inline-flex items-center justify-center w-11 h-11 rounded-xl bg-white/95 backdrop-blur-sm text-primary-600 shadow-md ring-1 ring-sky-100" v-html="service.icon" />
             </div>
@@ -143,7 +137,6 @@ const iconColonia = '<svg class="w-6 h-6" fill="none" stroke="currentColor" stro
 const services = [
   {
     title: 'Escuela de Natación Infantil (4 a 12 años)',
-    badge: 'Infantiles y Juveniles',
     image: '/images/nata/44.png',
     icon: iconKids,
     description: 'Enseñanza lúdica y progresiva para que los chicos adquieran seguridad, dominen las técnicas de nado y disfruten del agua en un entorno de contención y compañerismo.',
@@ -156,7 +149,6 @@ const services = [
   },
   {
     title: 'Natación Adultos y Perfeccionamiento',
-    badge: 'Principiantes a Avanzados',
     image: '/images/nata/11.jpeg',
     icon: iconAdults,
     description: 'Clases orientadas a mejorar la condición física, aprender desde cero o perfeccionar la técnica de brazada y respiración para nadar con mayor eficiencia y menos fatiga.',
@@ -169,7 +161,6 @@ const services = [
   },
   {
     title: 'Pileta Libre (Nado Libre por Turnos)',
-    badge: 'Horarios Flexibles',
     image: '/images/nata/000.png',
     icon: iconFree,
     description: 'Espacio pensado para quienes prefieren nadar a su propio ritmo. Contamos con andariveles ordenados por velocidad para garantizar una experiencia cómoda y placentera.',
@@ -182,7 +173,6 @@ const services = [
   },
   {
     title: 'Aquagym y Gimnasia Acuática',
-    badge: 'Salud y Vitalidad',
     image: '/images/nata/23.jpg',
     icon: iconAqua,
     description: 'La actividad perfecta para mantenerse en forma sin impacto en las articulaciones. Clases enérgicas y divertidas con música, diseñadas para todas las edades.',
@@ -195,7 +185,6 @@ const services = [
   },
   {
     title: 'Temporada de Pileta y Colonia Deportiva',
-    badge: 'Vacaciones en el Club',
     image: '/images/nata/33.jpg',
     icon: iconColonia,
     description: 'En los recesos de verano e invierno, el natatorio se llena de alegría con actividades especiales, juegos en el agua y aprendizaje intensivo para chicos.',

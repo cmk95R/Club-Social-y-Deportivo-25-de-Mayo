@@ -1,9 +1,9 @@
 <template>
   <section id="contact" class="relative py-20 flex items-center overflow-hidden bg-fixed"
-    style="background: linear-gradient(180deg, #FFFFFF 0%, #FFFFFF 15%, #0c4a6e 95%, #082f49 100%);">
+    style="background: linear-gradient(180deg, #FFFFFF 0%, #FFFFFF 15%, #1e356b 95%, #111d38 100%);">
     <div aria-hidden="true" class="absolute inset-0 z-0 pointer-events-none overflow-hidden">
       <div class="absolute inset-0 opacity-25"
-        style="background-image: radial-gradient(circle at 20% 30%, rgba(56,189,248,0.4) 0%, transparent 40%), radial-gradient(circle at 80% 70%, rgba(2,132,199,0.3) 0%, transparent 45%);" />
+        style="background-image: radial-gradient(circle at 20% 30%, rgba(106,146,220,0.4) 0%, transparent 40%), radial-gradient(circle at 80% 70%, rgba(40,77,157,0.3) 0%, transparent 45%);" />
     </div>
 
     <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 w-full">
@@ -34,7 +34,7 @@
                   alt="Sede Club Social y Deportivo 25 de Mayo Martínez"
                   class="w-full h-full object-cover object-center"
                 />
-                <span class="absolute top-3 left-3 px-3 py-1 rounded-full bg-slate-900/85 backdrop-blur-sm text-white text-[11px] font-heading font-extrabold uppercase tracking-wider shadow-sm">
+                <span class="absolute top-3 left-3 px-3 py-1 rounded-full bg-primary-950/85 backdrop-blur-sm text-white text-[11px] font-heading font-extrabold uppercase tracking-wider shadow-sm">
                   Sede Rodríguez Peña 941
                 </span>
               </div>

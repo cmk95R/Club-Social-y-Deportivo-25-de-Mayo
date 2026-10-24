@@ -1,5 +1,5 @@
 <template>
-  <footer class="bg-slate-950 text-white border-t-[5px] border-primary-600 pt-12 pb-8 font-sans">
+  <footer class="bg-primary-950 text-white border-t-[5px] border-primary-600 pt-12 pb-8 font-sans">
     <div class="max-w-7xl mx-auto px-4 sm:px-6">
       <div class="flex flex-col md:flex-row justify-between items-center gap-8 mb-10 pb-8 border-b border-white/10">
         <NuxtLink to="/" class="flex items-center gap-3 group" aria-label="Club 25 de Mayo Natatorio Martínez">
