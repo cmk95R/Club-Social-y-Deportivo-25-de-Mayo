@@ -21,6 +21,6 @@ useSeoMeta({
   description: 'Natatorio del Club Social y Deportivo 25 de Mayo (Martínez, San Isidro). Pileta climatizada todo el año, escuela de natación infantil y adultos, pileta libre y aquagym en Rodríguez Peña 941.',
   ogTitle: 'Natatorio Club 25 de Mayo (Martínez) — Pileta Climatizada',
   ogDescription: 'Escuela de natación, pileta libre y actividades acuáticas para todas las edades en Martínez.',
-  ogImage: '/images/nata/00.png',
+  ogImage: '/images/nata/logo.png',
 })
 </script>
